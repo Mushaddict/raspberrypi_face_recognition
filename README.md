@@ -26,3 +26,5 @@ Configuration => interfaces => enable SSH & VNC)</br>
 Reboot</br>
 Connect pi by SSH: ssh pi@192.168.0.11</br>
 Password: raspberry </br>
+</br>
+https://zhuanlan.zhihu.com/p/59027897
