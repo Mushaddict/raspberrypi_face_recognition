@@ -1,0 +1,3 @@
+AppId: 19607076
+API Key: fKbkSXWKRRWHq1TSCn9ONZae
+Secret Key: gSC6XuHsxBL0Eo2RGU3WKIdto2Mfgcsc
