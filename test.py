@@ -74,13 +74,13 @@ if __name__ == '__main__':
     
     # while True:
         
-        print('准备开始，请面向摄像头 ^_^')
+        print('Be ready, please look at the camera.  ^_^')
 
         if True:
             getimage() # take photo
-            img = transimage()  #转换照片格式
-            res = go_api(img)   #将转换了格式的图片上传到百度云
-            if(res == 1):   #是人脸库中的人
+            img = transimage()  # convert image format
+            res = go_api(img)   # get image from database
+            if(res == 1):   # if the picture is in database
                 print("Welcome home, the door is open")
             elif(res == -1):
                 print("I don't see you, door is closing")
