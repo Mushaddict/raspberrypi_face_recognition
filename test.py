@@ -40,16 +40,16 @@ def go_api(image):
         score = result['result']['user_list'][0]['score'] #get a score of similarity
         if score > 80: # if similarity > 80
             if name == 'the_rock':
-                print("Welcomes%s !" % name)
+                print("Welcomes %s !" % name)
                 time.sleep(1)
             if name == 'Tom_Crews':
-                print("Welcomes%s !" % name)
+                print("Welcomes %s !" % name)
                 time.sleep(3)
             if name == "yangmi":
-                print("Welcomes%s !" % name)
+                print("Welcomes %s !" % name)
                 time.sleep(3)
             if name == "yushu":
-                print("Welcomes%s !" % name)
+                print("Welcomes %s !" % name)
                 
         else:
             print("Sorry, I don't recognize you！")
