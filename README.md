@@ -24,7 +24,7 @@ Enable SSH and VNC (GUI: Open Application Menu => Preferences => Raspberry Pi</b
 Configuration => interfaces => enable SSH & VNC)</br>
 </br>
 Reboot</br>
-Connect pi by SSH: ssh pi@192.168.0.11</br>
+Connect pi by SSH: ssh pi@10.0.0.240</br>
 Password: raspberry </br>
 </br>
 https://zhuanlan.zhihu.com/p/59027897
