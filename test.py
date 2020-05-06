@@ -83,7 +83,7 @@ if __name__ == '__main__':
             if(res == 1):   # if the picture is in database
                 print("Welcome home, the door is open")
             elif(res == -1):
-                print("I don't see you, door is closing")
+                print("I can't see you, can't open the door")
                 time.sleep(1)  
             else:
                 print("Closing door")
